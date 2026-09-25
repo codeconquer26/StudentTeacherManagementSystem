@@ -1,29 +1,86 @@
-# Student Teacher Management System (Java Swing)
+# Student & Teacher Management System
 
-A desktop application for managing Students, Teachers, and Courses, built with **Java Swing** and organized using a clean, package-wise structure (Model–Service–UI–App layers). Created as an OOP course project.
+A desktop-based **Student and Teacher Management System** developed using **Object-Oriented Programming (OOP)**  and **Java Swing**  concepts.
 
-## Features
+The project uses a package-wise structure to keep the application organized and easy to understand.
 
-- Add, Show, Update, Delete, and Search records for:
-  - Students
-  - Teachers
-  - Courses
-- Simple, functional Swing GUI
+---
 
-## Project Structure
+## 📌 Project Overview
 
-```
-src/university/model      → Student.java, Teacher.java, Course.java
-src/university/service    → ManagementService.java
-src/university/ui         → MainFrame.java
-src/university/app        → Main.java (entry point)
-```
+This application provides a simple graphical interface for managing:
 
-## Tech Stack
+- Students
+- Teachers
+- Courses
+- Searching records
+- Updating student information
+- Deleting student information
+
+The system is developed using Java Swing for the graphical user interface.
+
+---
+
+## 🚀 Features
+
+### Student Management
+- Add Student
+- Show Students
+- Update Student
+- Delete Student
+
+### Teacher Management
+- Add Teacher
+- Show Teachers
+
+### Course Management
+- Add Course
+- Show Courses
+
+### Search
+- Search available records
+
+### GUI
+- Java Swing based graphical interface
+- Buttons and dialog boxes
+- Simple and user-friendly interface
+
+---
+
+## 🛠️ Technologies Used
 
 - Java
-- Swing (GUI)
-- OOP principles: encapsulation, package-based modular design
+- Java Swing
+- Object-Oriented Programming
+- IntelliJ IDEA
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+📦 Student-Teacher-Management-System
+│
+├── 📁 src
+│   └── 📁 university
+│       ├── 📁 app
+│       │   └── Main.java
+│       │
+│       ├── 📁 model
+│       │   ├── Student.java
+│       │   ├── Teacher.java
+│       │   └── Course.java
+│       │
+│       ├── 📁 service
+│       │   └── ManagementService.java
+│       │
+│       └── 📁 ui
+│           └── MainFrame.java
+│─ .gitignore
+└── README.md
+```
+
 
 ## How to Run
 
@@ -36,5 +93,5 @@ src/university/app        → Main.java (entry point)
 4. Run `university.app.Main`.
 
 ## Author
+Rafi,Bijoy,Ariyan
 
-Sadman
