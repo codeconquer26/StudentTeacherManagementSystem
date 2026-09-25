@@ -93,5 +93,5 @@ The system is developed using Java Swing for the graphical user interface.
 4. Run `university.app.Main`.
 
 ## Author
-Rafi,Bijoy,Ariyan
+Rafi , Bijoy , Ariyan
 
